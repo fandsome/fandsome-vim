@@ -1,0 +1,11 @@
+"################### 插件管理 ###################
+set nocompatible
+filetype off
+set rtp+=~/.vim/bundle/vundle/
+call vundle#rc()
+
+Bundle 'gmarik/vundle'
+source ~/.vim/config/bundles.base.vim
+source ~/.vim/config/bundles.display.vim
+source ~/.vim/config/bundles.language.vim
+source ~/.vim/config/bundles.util.vim
